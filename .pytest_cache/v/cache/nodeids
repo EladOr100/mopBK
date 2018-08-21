@@ -1,0 +1,6 @@
+[
+  "Tests/test_me.py::test_search_in_python_org",
+  "Tests/test_me.py::test_site_loads",
+  "Tests/test_me.py::test_add",
+  "Tests/test_me.py::test_sub"
+]

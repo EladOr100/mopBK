@@ -1,0 +1,16 @@
+{
+  "Tests/Tetser.py::test_fail": true,
+  "Tests/Tetser.py::test_pas222t": true,
+  "Tests/Tetser.py::test_past222": true,
+  "Tests/Tetser.py::test_site_loads": true,
+  "Tests/front_end_tests/login.py::test_login_to_site_fail": true,
+  "Tests/front_end_tests/login.py::test_login_to_site_fail_username": true,
+  "Tests/test_me.py::test_add": true,
+  "Tests/test_me.py::test_search_in_python_org": true,
+  "Tests/test_me.py::test_sub": true,
+  "Tests/tetser.py::test_fail": true,
+  "Tests/tetser.py::test_pas222t": true,
+  "Tests/tetser.py::test_past222": true,
+  "Tests/tetser.py::test_print": true,
+  "Tests/tetser.py::test_site_loads": true
+}

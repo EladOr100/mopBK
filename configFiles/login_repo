@@ -1,0 +1,4 @@
+
+    username: "//input[@type='text' and contains(@class,'LoginStyledComponents')]"
+    password: "//input[@type='password' and contains(@class,'LoginStyledComponents')]"
+    submit_button: "//button[@type='submit']"

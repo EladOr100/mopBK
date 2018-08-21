@@ -1,0 +1,11 @@
+login_data:
+    host: 10.32.5.23
+    user: root
+    passwd: my secret password
+    db: write-math
+other:
+    preprocessing_queue:
+        - preprocessing.scale_and_center
+        - preprocessing.dot_reduction
+        - preprocessing.connect_lines
+    use_anonymous: yes

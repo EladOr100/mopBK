@@ -1,0 +1,12 @@
+
+
+
+    url:      "http://10.32.5.73/ui/"
+    username: "wstu5"
+    password: "Pass123"
+    title:  "Wisdom Stone"
+    title_failure:  "Stupid Stone"
+    username_failure: "pass555"
+    password_failure: "pass555"
+
+

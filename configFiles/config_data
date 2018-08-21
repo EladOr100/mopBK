@@ -1,0 +1,16 @@
+{
+    "login_data":{
+        "Host":"10.32.5.23",
+        "user":"wstu6",
+        "passwd":"Pass123",
+        "db":"write-math"
+    },
+    "other":{
+        "preprocessing_queue":[
+            "preprocessing.scale_and_center",
+            "preprocessing.dot_reduction",
+            "preprocessing.connect_lines"
+            ],
+        "use_anonymous":true
+    }
+}

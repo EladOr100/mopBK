@@ -86,7 +86,7 @@ def test_add():
 @allure.feature('SUB')
 @allure.story('check the sub function')
 def test_sub():
-    with allure.step("check 2 parameters :" + str(add_two) + " and :" + str(
+    with allure.step("check 2 parameters from user:" + str(add_two) + " and :" + str(
             add_one) + " the expected rez is: " + str(sub_expected_pass)):
         actual = beck_end_func.sub(add_one, add_two)
         assert actual == sub_expected_pass, "the expected data is : " + str(sub_expected_pass) + " and we got :" + str(

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a03f6319-a66d-438f-a9e0-9a68d452370e" name="Default" comment="" />
+    <list default="true" id="a03f6319-a66d-438f-a9e0-9a68d452370e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_me.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_me.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +29,8 @@
       <file leaf-file-name="test_me.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/test_me.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="360">
+              <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -125,17 +128,17 @@
         <option value="$PROJECT_DIR$/configFiles/config_data" />
         <option value="$PROJECT_DIR$/configFiles/config_data_yaml" />
         <option value="$PROJECT_DIR$/configFiles/login_repo" />
-        <option value="$PROJECT_DIR$/Tests/test_me.py" />
         <option value="$PROJECT_DIR$/configFiles/dashboard" />
         <option value="$PROJECT_DIR$/Functions/yaml_parser.py" />
         <option value="$PROJECT_DIR$/configFiles/dashboard_repo" />
         <option value="$PROJECT_DIR$/FrontEnd/seleniumFunctions.py" />
         <option value="$PROJECT_DIR$/configFiles/login_repo_data" />
         <option value="$PROJECT_DIR$/Tests/front_end_tests/login.py" />
+        <option value="$PROJECT_DIR$/Tests/test_me.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-470" />
     <option name="y" value="-10" />
     <option name="width" value="1936" />
@@ -147,6 +150,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
+              <item name="configFiles" type="cbb8eebc:String" user="configFiles" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
+              <item name="FrontEnd" type="cbb8eebc:String" user="FrontEnd" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,27 +212,6 @@
               <item name="FinalReport" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalReport" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
-              <item name="configFiles" type="cbb8eebc:String" user="configFiles" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FinalReport" type="cbb8eebc:String" user="FinalReport" />
-              <item name="FrontEnd" type="cbb8eebc:String" user="FrontEnd" />
             </path>
           </expand>
           <select />
@@ -389,6 +392,37 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Functions/yaml_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configFiles/login_repo_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configFiles/dashboard_repo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_me.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/seleniumFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -721,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_me.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        <state relative-caret-position="360">
+          <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

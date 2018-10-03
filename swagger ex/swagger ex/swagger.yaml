@@ -1,0 +1,126 @@
+swagger: '2.0'
+info:
+  title: Test Api 
+  version: "0.1"
+  description: Simple example API for tests
+consumes:
+  - application/json
+produces:
+  - application/json
+
+paths:
+  /RunTestByFile:
+    post:
+      tags: [Tests]
+      operationId: app.post_testByFile
+      summary: Running pytest's tests by file name
+      parameters:
+        - name: TestFile
+          in: body
+          schema:
+            $ref: '#/definitions/TestFile'
+      responses:
+        200:
+          description: Return tests status
+          schema:
+            type: object
+            properties:
+              pets:
+                type: array
+                items:
+                  $ref: '#/definitions/TestFile'
+  /RunTestByMarkers:
+    post:
+      tags: [Tests]
+      operationId: app.post_testByMarks
+      summary: Running pytest's tests by file name and marker
+      parameters:
+        - name: Marker
+          in: body
+          schema:
+            $ref: '#/definitions/Marker'
+          in: body
+          schema:
+            $ref: '#/definitions/Marker'
+      responses:
+        200:
+          description: Return pets
+          schema:
+            type: object
+            properties:
+              pets:
+                type: array
+                items:
+                  $ref: '#/definitions/Marker'
+  /RunTestByName:
+    post:
+      tags: [Tests]
+      operationId: app.post_testByName
+      summary: Running pytest's tests by test name
+      parameters:
+        - name: TestName
+          in: body
+          schema:
+            $ref: '#/definitions/TestName'
+          in: body
+          schema:
+            $ref: '#/definitions/TestName'
+      responses:
+        200:
+          description: Return pets
+          schema:
+            type: object
+            properties:
+              pets:
+                type: array
+                items:
+                  $ref: '#/definitions/TestName'
+
+definitions:
+  TestFile:
+    type: object
+    required:
+      - fileName
+    properties:
+      fileName:
+        type: string
+        description: File Name
+        example: "..\\ExampleTests\\TestFileExample1.py"
+        minLength: 1
+        maxLength: 100
+  Marker:
+    type: object
+    required:
+      - fileName
+      - marker
+    properties:
+      fileName:
+        type: string
+        description: File Name
+        example: "..\\ExampleTests\\TestFileExample1.py"
+        minLength: 1
+        maxLength: 100
+      marker:
+        type: string
+        description: Marker Name
+        example: "low"
+        minLength: 1
+        maxLength: 100
+  TestName:
+    type: object
+    required:
+      - fileName
+      - testName
+    properties:
+      fileName:
+        type: string
+        description: File Name
+        example: "..\\ExampleTests\\TestFileExample1.py"
+        minLength: 1
+        maxLength: 100
+      testName:
+        type: string
+        description: Test Name
+        example: "test_subtraction"
+        minLength: 1
+        maxLength: 100

@@ -10,6 +10,7 @@ This API lets you running your tests according to multiple filters:
 	1. By file name - Running all of the tests on the specify file.
 	2. By test name - Running only the selected test.
 	3. By marker - Running only the tests with the relevant markers.
+    4. By folder - Running only the tests under the specify folder(from all of the files)
 ---------------------------------------------------------------------
 
 General Structure:

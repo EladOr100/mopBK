@@ -75,6 +75,29 @@ paths:
                 type: array
                 items:
                   $ref: '#/definitions/TestName'
+  /RunTestByFolder:
+    post:
+      tags: [Tests]
+      operationId: app.post_testByFolder
+      summary: Running pytest's tests by folder name
+      parameters:
+        - name: FolderName
+          in: body
+          schema:
+            $ref: '#/definitions/FolderName'
+          in: body
+          schema:
+            $ref: '#/definitions/FolderName'
+      responses:
+        200:
+          description: Return pets
+          schema:
+            type: object
+            properties:
+              pets:
+                type: array
+                items:
+                  $ref: '#/definitions/FolderName'
 
 definitions:
   TestFile:
@@ -85,7 +108,7 @@ definitions:
       fileName:
         type: string
         description: File Name
-        example: "..\\ExampleTests\\TestFileExample1.py"
+        example: "/ExampleTests/TestFileExample1.py"
         minLength: 1
         maxLength: 100
   Marker:
@@ -97,7 +120,7 @@ definitions:
       fileName:
         type: string
         description: File Name
-        example: "..\\ExampleTests\\TestFileExample1.py"
+        example: "/ExampleTests/TestFileExample1.py"
         minLength: 1
         maxLength: 100
       marker:
@@ -115,12 +138,23 @@ definitions:
       fileName:
         type: string
         description: File Name
-        example: "..\\ExampleTests\\TestFileExample1.py"
+        example: "/ExampleTests/TestFileExample1.py"
         minLength: 1
         maxLength: 100
       testName:
         type: string
         description: Test Name
         example: "test_subtraction"
+        minLength: 1
+        maxLength: 100
+  FolderName:
+    type: object
+    required:
+      - folderName
+    properties:
+      folderName:
+        type: string
+        description: Folder Name
+        example: "/ExampleTests"
         minLength: 1
         maxLength: 100
